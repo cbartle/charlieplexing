@@ -18,4 +18,3 @@ pico_enable_stdio_uart(charlieplex 0)
 pico_add_extra_outputs(charlieplex)
 
 # add url via pico_set_program_url
-#example_auto_set_url(barometer)
