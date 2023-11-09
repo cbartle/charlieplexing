@@ -8,7 +8,7 @@ pico_sdk_init()
 add_executable(charlieplex charlieplex.c)
 
 # pull in common dependencies
-target_link_libraries(charlieplex pico_stdlib hardware_i2c)
+target_link_libraries(charlieplex pico_stdlib)
 
 # enable usb output, disable uart output
 pico_enable_stdio_usb(charlieplex 1)
